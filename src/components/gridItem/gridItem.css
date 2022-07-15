@@ -1,0 +1,14 @@
+td {
+    padding-top: 15px;
+    text-align: start;
+    word-break: break-all;
+}
+
+td:nth-child(1) {
+    text-align: start;
+}
+
+td svg {
+    width: 18px;
+    height: 18px;
+}

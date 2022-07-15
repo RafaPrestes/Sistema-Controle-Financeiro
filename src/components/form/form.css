@@ -1,0 +1,76 @@
+.form__container {
+    max-width: 1098px;
+    width: 98%;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 0 #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    gap: 10px;
+}
+
+.inputContent {
+    display: flex;   
+}
+
+input {
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+
+.inputContent input {
+    margin: 0 10px 0 10px;
+}
+
+.radioGroup {
+    display: flex;
+    align-items: center;
+}
+
+.radioGroup > input {
+    margin-left: 20px;
+    accent-color: black;
+    margin-top: 0;
+    margin-right: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: teal;
+}
+
+
+@media screen and (max-width: 889px) {
+    .inputContent {
+        display: grid;
+    }
+
+    button {
+        display: flex;
+        align-items: center;
+        margin: auto 0;
+        justify-content: center;
+        height: 50px;
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .form__container {
+        display: grid;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
